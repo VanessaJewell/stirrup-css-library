@@ -1,0 +1,11 @@
+.border {
+  border:solid 1px;
+}
+
+.sample {
+  background:#dcdee2;
+  border:solid 2px;
+  padding:20px;
+  margin:15px;
+  width:75%;
+}

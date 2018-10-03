@@ -1,0 +1,212 @@
+/*base styles*/
+
+body {
+  font-size: 16px;
+  color:#23262b;
+  background-color:#ffffff;
+  font-family:"Helvetica", "Arial", "Times New Roman", sans-serif;
+  line-height:1.25em;
+}
+
+/*header & nav*/
+
+header {
+  margin-top:20px;
+}
+
+.logo {
+  border:solid 1px;
+  margin:0 auto;
+  width:150px;
+  font-size:2.5em;
+  padding:10px;
+  text-align:center;
+}
+
+nav {
+  margin-top:15px;
+  border-top:solid 1px;
+  display:flex;
+}
+
+.navItem {
+  text-align:center;
+  padding-top:5px;
+  border:solid 1px;
+  flex:1;
+}
+
+/*headings*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top:1em;
+  margin-bottom:1em;
+  font-weight:600;
+}
+
+h1 {
+  font-size:36px;
+}
+
+h2 {
+  font-size:32px;
+}
+
+h3 {
+  font-size:28px;
+}
+
+h4 {
+  font-size:24px;
+}
+
+h5 {
+  font-size:20px;
+}
+
+h6 {
+  font-size:18px;
+}
+
+p {
+  margin-bottom:10px;
+  margin-top:10px;
+}
+
+/*grid*/
+
+.row {
+  display:flex;
+}
+
+.col {
+  padding:2px;
+  margin:2px;
+}
+
+.col_1_of_12 {
+  flex:1;
+}
+
+.col_2_of_12 {
+  flex:2;
+}
+
+.col_3_of_12 {
+  flex:3;
+}
+
+.col_4_of_12 {
+  flex:4;
+}
+
+.col_5_of_12 {
+  flex:5;
+}
+
+.col_6_of_12 {
+  flex:6;
+}
+
+.col_7_of_12 {
+  flex:7;
+}
+
+.col_8_of_12 {
+  flex:8;
+}
+
+.col_9_of_12 {
+  flex:9;
+}
+
+.col_10_of_12 {
+  flex:10;
+}
+
+.col_11_of_12 {
+  flex:11;
+}
+
+.col_12_of_12 {
+  flex:12;
+}
+
+/*Table*/
+
+table {
+  margin:30px;
+
+  width:75%;
+}
+
+th {
+  padding-top:10px;
+  padding-bottom:10px;
+  font-weight: bold;
+}
+
+td {
+  padding-top:2px;
+  padding-bottom:2px;
+}
+
+tr {
+  border-bottom: 1px solid #E1E1E1;
+  text-align:left;
+
+}
+
+/*buttons*/
+
+button {
+
+}
+button:hover {
+  border:solid 1px;
+  cursor:pointer;
+}
+
+.button.small {
+  width:56px;
+}
+
+.button.medium {
+  width:100px;
+  height:36px;
+  font-size:18px;
+}
+
+.button.large {
+  width:150px;
+  height:45px;
+  font-size:24px;
+}
+
+.button.teal {
+  background-color:teal;
+}
+
+.button.black {
+  color:white;
+  background-color:black;
+}
+
+/*form*/
+
+form {
+  background:white;
+  width:600px;
+  border:solid 1px;
+  margin-bottom:30px;
+  padding:30px;
+}
+
+.form_row {
+  padding:10px;
+}
+
+.radio {
+  margin:10px;
+  padding:20px;
+}
