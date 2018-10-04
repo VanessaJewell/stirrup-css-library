@@ -18,8 +18,6 @@ header {
   border:solid 1px;
   margin:0 auto;
   width:150px;
-  font-size:2.5em;
-  padding:10px;
   text-align:center;
 }
 
@@ -39,33 +37,34 @@ nav {
 /*headings*/
 
 h1, h2, h3, h4, h5, h6 {
+  font-family:'Adamina', serif;
   margin-top:1em;
   margin-bottom:1em;
   font-weight:600;
 }
 
 h1 {
-  font-size:36px;
+  font-size:2.25em;
 }
 
 h2 {
-  font-size:32px;
+  font-size:2em;
 }
 
 h3 {
-  font-size:28px;
+  font-size:1.75em;
 }
 
 h4 {
-  font-size:24px;
+  font-size:1.5em;
 }
 
 h5 {
-  font-size:20px;
+  font-size:1.25em;
 }
 
 h6 {
-  font-size:18px;
+  font-size:1.15em;
 }
 
 p {
@@ -209,4 +208,13 @@ form {
 .radio {
   margin:10px;
   padding:20px;
+}
+
+/*blockquote*/
+
+blockquote {
+  margin-left:15%;
+  margin-right:15%;
+  margin-top:40px;
+  margin-bottom:40px;
 }
