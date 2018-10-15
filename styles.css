@@ -1,11 +1,20 @@
 /*base styles*/
 
+@font-face {
+  font-family: 'Adamina';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Adamina Regular'), local('Adamina-Regular'), url(https://fonts.gstatic.com/s/adamina/v11/j8_r6-DH1bjoc-dwi-3UEA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 body {
   font-size: 16px;
   color:#23262b;
   background-color:#ffffff;
   font-family:"Helvetica", "Arial", "Times New Roman", sans-serif;
   line-height:1.25em;
+  padding:20px;
 }
 
 /*header & nav*/
@@ -21,36 +30,16 @@ header {
   padding:10px;
 }
 
-/* .logo {
-  border:solid 1px;
-  margin:0 auto;
-  width:150px;
-  text-align:center;
-} */
-
 nav {
   margin-top:15px;
-  border-top:solid 1px;
-}
 
-/* nav {
-  margin-top:15px;
-  border-top:solid 1px;
-  display:flex;
-} */
+}
 
 .navItem {
   text-align:center;
   padding-top:5px;
   border:solid 1px;
 }
-
-/* .navItem {
-  text-align:center;
-  padding-top:5px;
-  border:solid 1px;
-  flex:1;
-} */
 
 /*headings*/
 
@@ -213,7 +202,6 @@ button:hover {
 
 form {
   background:white;
-  width:600px;
   border:solid 1px;
   margin-bottom:30px;
   padding:30px;
@@ -224,9 +212,39 @@ form {
   flex-direction:column;
 }
 
-.radio {
+input[type="radio"] {
   margin:10px;
   padding:20px;
+
+}
+
+.radio {
+  border:solid 1px lightgray;
+  max-width: 200px;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+input[type="checkbox"] {
+  margin:10px;
+  padding:20px;
+}
+
+.checkbox {
+  border:solid 1px lightgray;
+  max-width: 200px;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+input {
+  border:solid 1px;
+  padding:8px;
+}
+
+select {
+  font-size:18px;
+  background-color:lightgray;
 }
 
 /*blockquote*/
@@ -241,6 +259,10 @@ blockquote {
 @media screen and (min-width:768px) {
   nav {
     display:flex;
+  }
+
+  form {
+    width:600px;
   }
 
   .navItem {
@@ -269,4 +291,34 @@ blockquote {
     right:0;
     width:30%;
   }
+}
+
+/*misc*/
+
+/*image*/
+img {
+  border:solid 1px lightgray;
+  max-width: 300px;
+  padding:6px;
+}
+
+/*link*/
+a {
+  color:teal;
+}
+
+a:hover {
+  color:yellow;
+}
+
+div {
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+footer {
+  border:solid 1px;
+  text-align:center;
+  height:30px;
+  padding-top:10px;
 }
